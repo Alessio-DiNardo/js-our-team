@@ -56,7 +56,8 @@ console.log("team");
 
 for (let i = 0; i < team.length; i++){
     // per ogni oggetto devo creare un li e popolarlo
-    const ulElement = document.querySelector("ul");
     const liElement = document.createElement("li");
+    liElement.document = team[i];
     ul.appendChild("li");
 }
+const ulElement = document.querySelector("ul");
