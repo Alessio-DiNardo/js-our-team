@@ -52,3 +52,13 @@ const team = [
 ]
 
 console.log("team");
+
+
+const ul = document.querySelector("ul");
+
+const li = document.createElement("li");
+
+li.team = "";
+
+ul.appendChild("li");
+
