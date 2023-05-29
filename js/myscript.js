@@ -55,5 +55,8 @@ console.log("team");
 
 
 for (let i = 0; i < team.length; i++){
-    
+    // per ogni oggetto devo creare un li e popolarlo
+    const ul = document.querySelector("ul");
+    const li = document.createElement("li");
+    ul.appendChild("li");
 }
