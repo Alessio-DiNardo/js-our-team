@@ -53,13 +53,17 @@ const team = [
 
 console.log("team");
 
-const ulElement = document.querySelector("ul");
 
+const teamWrapper = document.querySelector("div.team-wrapper");
 
 for (let i = 0; i < team.length; i++){
     // per ogni oggetto devo creare un li e popolarlo
-    const elenc = team[i];
-    const liElement = document.createElement("li");
-    ulElement.innerHTML += "<li>" + elenc + "</li>";
     
-}
+    teamWrapper.innerHTML +=´ <div class="card-member">
+    <pre>$(teamMember.Name) -- $(teamMember.role)
+    $(teamMember.Picture)    
+    </pre>
+</div>`;}
+    
+
+
